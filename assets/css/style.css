@@ -1,0 +1,52 @@
+body {
+    background-color: lightgray;
+    align-items: center;
+}
+
+#btnPink {
+    width: 75px;
+    height: 75px;
+    background-color: fuchsia;
+    text-align: center;
+}
+
+#btnOrange {
+    width: 75px;
+    height: 75px;
+    background-color: orange;
+    text-align: center;
+}
+
+#btnGreen {
+    width: 75px;
+    height: 75px;
+    background-color: green;
+    text-align: center;
+}
+
+#btnBlue {
+    width: 75px;
+    height: 75px;
+    background-color: blue;
+    text-align: center;
+}
+
+#displayCrystal {
+    width: 150px;
+    height: 150px;
+    background-color: white;   
+    text-align: center; 
+}
+#winDisplay{
+    width: 75px;
+    height: 75px;
+    background-color: white;
+    text-align: center;
+}
+#lossDisplay{
+    width: 75px;
+    height: 75px;
+    background-color: white;
+    text-align: center;
+}
+
