@@ -8,6 +8,7 @@ body {
     height: 75px;
     background-color: fuchsia;
     text-align: center;
+    float: left;
 }
 
 #btnOrange {
@@ -15,6 +16,7 @@ body {
     height: 75px;
     background-color: orange;
     text-align: center;
+    float: left;
 }
 
 #btnGreen {
@@ -22,6 +24,7 @@ body {
     height: 75px;
     background-color: green;
     text-align: center;
+    float: left;
 }
 
 #btnBlue {
@@ -29,6 +32,7 @@ body {
     height: 75px;
     background-color: blue;
     text-align: center;
+    float: left;
 }
 
 #displayCrystal {
@@ -42,11 +46,22 @@ body {
     height: 75px;
     background-color: white;
     text-align: center;
+    float: left;
+    
 }
 #lossDisplay{
     width: 75px;
     height: 75px;
     background-color: white;
     text-align: center;
+    float: left;
+    
+}
+
+#displayScore {
+    width: 150px;
+    height: 150px;
+    background-color: gold;  
+    text-align: center; 
 }
 
