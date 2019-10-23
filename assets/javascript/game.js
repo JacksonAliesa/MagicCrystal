@@ -30,7 +30,7 @@ window.onload;
 		wins = 0;
 		losses = 0;
 		userScore = 0;
-		$('#displayScore').html('<h3>Your Score Is:</h3>' + userScore);
+		$('#displayScore').html('<h4>Your Score Is:</h4>' + userScore);
 		$('#winDisplay').html('<h4>Wins:</h4>' + wins);
 		$('#lossDisplay').html('<h4>Loss:</h4>' + losses);
 
@@ -41,10 +41,7 @@ window.onload;
 		console.log(btnBlue);
 	}
 	startGame();
-	// variables to display the wins/losses/totalscore of user
-	// var wins = 0;
-	// var losses = 0;
-	// userScore = 0;
+
 
 	//display wins/losses on html
 	$('#winDisplay').html('<h4>Wins:</h4>' + wins);
@@ -79,23 +76,21 @@ window.onload;
 		checkScore();
 	});
 
+
+	// made function to put within each click function to control the wins&losses
 	function checkScore() {
 		if (userScore === randomNum) {
-			// console.log("You win!")
 			wins++;
 			console.log('Wins: ' + wins);
 			$('#winDisplay').html(wins);
+			alert("WINNER!")
 			startGame();
 		} else if (userScore > randomNum) {
-			// console.log("LOSER!")
 			losses++;
 			console.log('Losses: ' + losses);
 			$('#lossDisplay').html(losses);
+			alert("LOSER!!")
 			startGame();
 		}
 	}
-
-	//player whens if score matches randomnumber aka magic crystal
-	//player loses if their score exceeds randomnumber aka magic crystal
-	//game should reset once the player wins or loses
-}
+};

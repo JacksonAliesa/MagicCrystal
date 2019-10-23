@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -8,43 +9,46 @@
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
-<body>
-
+<body class =".bg-gradient-light">
+<div class ="container">
+    <div class="row">
+    <div id="gameDirections">
     <h1>Crystal's Collector!</h1>
-    <h3>You will be given a random number at the start of the game.</h3>
-    <h3>There are four crystals below. By clicking on a crystal you will add a specific
-        amount of points to your total score.</h3>
-    <h3>You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.</h3>
-    <h3>The value of each crystal is hidden from you until you click on it.</h3>
-    <h3>Each time when the game starts, the game will change the value of the crystal.</h3>
+    <h4>You will be given a random number at the start of the game.</h4>
+    <h4>There are four crystals below. By clicking on a crystal you will add a specific
+        amount of points to your total score.</h4>
+    <h4>You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.</h4>
+    <h4>The value of each crystal is hidden from you until you click on it.</h4>
+    <h4>Each time when the game starts, the game will change the value of the crystal.</h4>
+    </div>
+</div>
 
+
+<div class="row">
     <div id="displayCrystal">Magic Crystal</div>
+</div>
 
-
-    <h5>Wins:<span id="winDisplay"></span></h5>
-    <h5>Loss:<span id="lossDisplay"></span></h5>
-    <br>
-
+<div class="row">
+    
     <div id="btnPink"> Pink Crystal </div>
-    <div id="btnOrange"> Orange Crystal</div>
+    <div id="btnOrange">Orange Crystal</div>
     <div id="btnGreen">Green Crystal</div>
     <div id="btnBlue">Blue Crystal</div>
+</div>
 
-    <br>
-
+<div class ="row">
     <div id="displayScore">Your Score is: </div>
+    </div>
+
+
+    <div class="row">
+    <h5 id="winDisplay">Wins:</h5>
+    <h5 id="lossDisplay">Loss:<h5>
+    </div>
+
+</div>
 
   
-
-
-
-
-
-
-
-
-
-
 
 
 
